@@ -9,10 +9,8 @@ import {
   Card,
   CardMedia,
   CardContent,
-  Skeleton,
   Typography,
   Button,
-  Divider,
   IconButton,
   Dialog,
   DialogTitle,
@@ -23,10 +21,6 @@ import {
   ToggleButton,
 } from "@mui/material";
 
-import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
-import EventIcon from "@mui/icons-material/Event";
-import AccessTimeIcon from "@mui/icons-material/AccessTime";
-import FavoriteIcon from "@mui/icons-material/Favorite";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 
 import QuestionAnswerIcon from "@mui/icons-material/QuestionAnswer";

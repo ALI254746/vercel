@@ -10,7 +10,7 @@ const Footer = () => {
             © 2025 MyWebsite. Barcha huquqlar himoyalangan.
           </Typography>
           <Typography variant="body2" color="text.secondary" align="center">
-            Biz bilan bog'laning: info@mywebsite.com
+            Biz bilan boglaning: info@mywebsite.com
           </Typography>
           <Button variant="contained" color="primary" size="small">
             Bosh sahifaga qaytish

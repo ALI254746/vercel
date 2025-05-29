@@ -30,7 +30,7 @@ export async function PUT(request, { params }) {
     return NextResponse.json({
       message: "Bildirishnoma o'qilgan deb belgilandi",
     });
-  } catch (error) {
+  } catch {
     return NextResponse.json({ error: "Xatolik yuz berdi" }, { status: 500 });
   }
 }

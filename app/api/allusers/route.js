@@ -9,7 +9,7 @@ export async function GET() {
 
     const users = await User.find({}, { password: 0 }); // Parolni chiqarilmasin
     return NextResponse.json({ success: true, users });
-  } catch (error) {
+  } catch {
     return NextResponse.json(
       { success: false, error: error.message },
       { status: 500 }

@@ -17,7 +17,6 @@ export async function GET(req) {
     return NextResponse.json({ message: "Unauthorized" }, { status: 401 });
   }
 
-  let userData;
   try {
     userData = jwt.verify(token, process.env.JWT_SECRET);
   } catch {
@@ -53,10 +52,9 @@ export async function POST(req) {
     return NextResponse.json({ message: "Unauthorized" }, { status: 401 });
   }
 
-  let userData;
   try {
     userData = jwt.verify(token, process.env.JWT_SECRET);
-  } catch (error) {
+  } catch {
     return NextResponse.json({ message: "Invalid token" }, { status: 403 });
   }
 
